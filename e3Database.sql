@@ -33,6 +33,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `GamersE3`.`GameInfo` (
   `GameID` INT NOT NULL,
   `GameName` VARCHAR(45) NOT NULL,
+  `BoxArt` LONGBLOB,
   `ConferenceShown` VARCHAR(45) NULL,
   `Genre` VARCHAR(45) NULL,
   `Developer` VARCHAR(45) NOT NULL,
