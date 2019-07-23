@@ -1,0 +1,9 @@
+#twitch-feature {
+  clear: both;
+  width: 700px;
+}
+
+.twitch-feature-heading {
+    color: #fbd647;
+    margin-top: 32px;
+}

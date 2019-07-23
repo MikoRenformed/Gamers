@@ -1,0 +1,99 @@
+.developers-bg {
+  background-image: url("../images/pic4.jpg");
+  background-size: contain;
+  background-color:black;
+  background-position:right;
+  background-repeat: no-repeat
+}
+
+.livestreams-bg {
+  background-image: url("../images/pic3.jpg");
+  background-size: contain;
+  background-color:black;
+  background-position:right;
+  background-repeat: no-repeat
+}
+
+.pics_videos-bg {
+  background-image: url("../images/pic.jpg");
+  background-size: contain;
+}
+
+.latest_news-bg {
+  background-image: url("../images/pic5.png");
+  background-size: contain;
+  background-color:black;
+  background-position:right;
+  background-repeat: no-repeat
+
+
+}
+
+.home-bg {
+  background-image: url("../images/play.jpg");
+  background-color:black;
+  background-size: contain;
+  background-position:right;
+  background-repeat: no-repeat
+
+
+}
+
+.announcements-bg {
+  background-image: url("../images/pic2.jpg");
+  background-color:black;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+
+
+}
+
+.container{
+  width:80%
+  margin 0:auto;
+}
+
+.logo{
+  float: left;
+  padding: 10px 0;
+}
+
+nav{
+    float: left;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 25;
+
+  position: relative;
+}
+
+nav a{
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #FFFFFF;
+  position: relative;
+  top: 0;
+  width: 0%;
+  transition: all 200ms ease-in;
+}
+
+nav a:hover::before{
+  width: 100%;
+}
