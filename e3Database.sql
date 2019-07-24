@@ -16,7 +16,7 @@ USE `GamersE3`;
 -- Table `GamersE3`.`UserInfo`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `GamersE3`.`UserInfo` (
-  `UserID` INT NOT NULL,
+  `UserID` INT NOT NULL AUTO_INCREMENT,
   `firstName` VARCHAR(45) NULL,
   `lastName` VARCHAR(45) NULL,
   `email` VARCHAR(75) NOT NULL,
@@ -31,7 +31,7 @@ ENGINE = InnoDB;
 -- Table `GamersE3`.`GameInfo`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `GamersE3`.`GameInfo` (
-  `GameID` INT NOT NULL,
+  `GameID` INT NOT NULL AUTO_INCREMENT,
   `GameName` VARCHAR(45) NOT NULL,
   `BoxArt` LONGBLOB,
   `ConferenceShown` VARCHAR(45) NULL,
