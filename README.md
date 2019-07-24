@@ -1,6 +1,8 @@
 # Gamers
-We created this project as a website dedicated to the yearly E3 Gaming convention, on our site you can search for new and upcoming games
+We created this project as a website dedicated to the yearly E3 Gaming convention, on our site you can get all the updated information of the current E3
 as well as get the latest news for both E3 and the gaming industry in general through announcements, articles, pictures and videos.
+
+We have a landing page to greet the visitors of the site.
 
 On the Home page you can see a brief selection of all our featured content before using the top Navigation bar to explore the other pages.
 
@@ -13,5 +15,4 @@ after a 30 second preview it allows you to click on the link and continue watchi
 On the Pictures page you can view all the latest pictures from the E3 convention, uploaded into an easy to use and view gallery. Similarly
 on the Videos page is another gallery of videos including new game trailers and footage from the E3 panels.
 
-On the Developers page you can access our SQL database in order to view upcoming titles. Our SQL database is capable of holding the game's
-title, box art, the conference it was shown at, genre, publisher, developer, release date, metacritic score as well as plenty of additional details.
+On the Developers page you can see the list of developers and a link to their website for all the developers presenting at E3 this year.
