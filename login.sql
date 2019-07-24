@@ -7,8 +7,14 @@ var con = mysql.createConnection({ --connects to server, change values to w/e se
   database: "mydb"
 });
 
-var adr = 'Mountain 21';
-var sql = 'SELECT userID FROM userinfo WHERE email = ? and password = ?';
-con.query(sql,[loginEmail,loginPassword], function (err, result) {
+
+con.connect(function(err) { --login
   if (err) throw err;
+  var sql = 'SELECT userID FROM userinfo WHERE email = ? and password = ?';
+  con.query(sql,[loginEmail,loginPassword], function (err, result) {
+  if (err) throw err;
+  });
 });
+
+
+
