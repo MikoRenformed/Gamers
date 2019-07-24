@@ -16,3 +16,5 @@ On the Pictures page you can view all the latest pictures from the E3 convention
 on the Videos page is another gallery of videos including new game trailers and footage from the E3 panels.
 
 On the Developers page you can see the list of developers and a link to their website for all the developers presenting at E3 this year.
+
+Behind the scenes we have a SQL database to keep track of all the relevant data for new and upcoming games announced and presented at E3 so E3 organizes can store all the data about products presented at their events in one easily searchable and organized spot.
