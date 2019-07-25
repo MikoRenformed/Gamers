@@ -4,6 +4,8 @@ as well as get the latest news for both E3 and the gaming industry in general th
 
 We have a landing page to greet the visitors of the site.
 
+After going through the landing page, visitors will encounter a log in page - if they do not have an account, they will go through registration before being led back to the log in page, where they can log in and then be redirected to the home page.
+
 On the Home page you can see a brief selection of all our featured content before using the top Navigation bar to explore the other pages.
 
 On the News page you have two sections of information, one where you can get announcements involving current and future E3 conventions and
